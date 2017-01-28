@@ -8,11 +8,11 @@
   <body>
     
      <header class="main-header">
-        <div class="container">
-            <div class="logo-index">
-                <img src="img/catalog-logo.png" width="111" height="24" alt="Барбершоп "Бородинский""></img>
+        <div class="container clearfix">
+            <div class="shop-logo-index">
+                <a href="index.html"><img src="img/catalog-logo.png" width="111" height="24" alt="Барбершоп "Бородинский""></a>
             </div>
-          <nav class="main-navigation">
+          <nav class="shop-navigation">
             <ul>
                <li><a href="#">Информация</a></li>
                <li><a href="#">Новости</a></li>
@@ -27,9 +27,9 @@
         </div>
      </header>
      
-    <main class="container">
-       <h2>Набор для путешествий "Baxter of California"</h2>        
-           <div class="breadcrumbs">
+    <main class="container">      
+           <div class="breadcrumbs clearfix">
+           <h2>Набор для путешествий "Baxter of California"</h2>  
             <ul>
                <li><a href="index.html">Главная</a></li>
                <li><a href="#">Магазин</a></li>
@@ -37,20 +37,31 @@
                <li><a href="#">Набор для путешествий "Baxter of California"</a></li>
             </ul>
         </div>
-        <div class="index-content">
-            <div class="index-content-left">
-                <img src="img/item-photo-1.png" width="486" height="524" alt="">
-                <img src="img/item-photo-2.png" width="166" height="175" alt="">
-                <img src="img/item-photo-3.png" width="166" height="175" alt="">
-                <img src="img/item-photo-4.png" width="166" height="175" alt="">
+        <div class="item-content clearfix">
+            <div class="item-content-left clearfix">
+               <div class="item-photo-left">
+                <img src="img/catalog-1-noShadow.jpg" width="460" height="498" alt="">
+                </div>
+                <div class="item-photo-left">
+                <img src="img/item-photo-2.jpg" width="140" height="149" alt="">
+                </div>
+                
+                <div class="item-photo-left">
+                <img src="img/item-photo-3.jpg" width="140" height="149" alt="">
+                </div>
+                
+                <div class="item-photo-left">
+                <img src="img/item-photo-4.jpg" width="140" height="149" alt="">
+                </div>
+                
             </div>
-        </div>
-        <div class="index-content-right">
-           
+        
+        <div class="item-content-right clearfix">
+           <div class="about-product">
             <p class="availability">Есть в наличии</p>
             <p class="code">Артикул:Dexter-AE</p>
             <p>Travel kit - необходимый аксесуар во время любого путешествия, в аккуратной кожаной сумке находится все, что нужно для бритья и ухода за кожей все время рабочей поездки или отдыха:средство для умывания, увлажняющий крем, крем для бритья, крем после бритья, шампунь, набор также может стать отличным подарком.</p>
-            <p>2 900 руб.</p>
+            <span>2 900 руб.</span>
             <button class="btn">Купить</button>
             <h2>В набор входят:</h2>
             <ul>
@@ -70,12 +81,13 @@
                     <p>Удобная кожаная косметичка</p>
                 </li>
             </ul>
+            </div>
         </div>
         
     </main>
      
      <footer class="main-footer">
-        <div class="container">
+        <div class="container clearfix">
             <div class="footer-contact">
                 Барбершоп «Бородинский»<br>
                 Адрес: г. Санкт-Петербург, Б. Конюшенная, д. 19/8<br>
