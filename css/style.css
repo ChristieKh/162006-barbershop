@@ -37,7 +37,7 @@ h2 {
   margin-bottom: 60px;
 }
 
-.shop-logo-index {
+.logo-shop {
   float: left;
   width: 140px;
 }
@@ -51,7 +51,7 @@ main.container  {
   float: left;
 }
 
-.shop-navigation {
+.header__shop-nav {
   width: 640px;
   float: left;
 }
@@ -69,7 +69,7 @@ main.container  {
   margin-bottom: 25px;
 }
 
-.breadcrumbs {
+.shop__breadcrumbs {
   padding-top: 55px;
 }
 
