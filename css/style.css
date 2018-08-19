@@ -104,48 +104,6 @@ main.container  {
   vertical-align: top;
 }
 
-/* стили catalog */
-.item-content {
-  width: 940px;
-  padding-bottom: 50px;
-}
-
-.item-content-left {
-  display: inline-block;
-  width: 460px;
-  height: 670px;
-  vertical-align: top;
-  padding-right: 80px;
-}
-
-.item-photo-left {
-  display: inline-block;
-  margin-right: 16px;
-  vertical-align: top;
-}
-
-.item-photo-left:first-child {
-  margin-bottom: 11px;
-}
-
-.item-photo-left:last-child {
-  margin-right: 0;
-}
-
-
-.item-content-right {
-  float: right;
-  width: 390px;
-  padding-right: 10px;
-}
-
-.about-product {
-  display: inline-block;
-  width: 390px;
-  vertical-align: top;
-}
-
-/* стили index */
 .main__features {
   margin-bottom: 80px;
 }
@@ -171,8 +129,7 @@ main.container  {
   width: 380px;
 }
 
-.index-content__gallery,
-.index-reserv{
+.reviews-index {
   float: right;
   width: 300px;
 }
